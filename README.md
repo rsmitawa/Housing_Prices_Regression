@@ -32,11 +32,11 @@ On doing EDA we uncovered the following :
 
 Importance: We need to build new features based on the exisiting information to reduce the sparsity in the data and feeding only the relevant data to the model. The goal is to simplify and speed up data transformations while also enhancing model accuracy.
 
-1. We made a new feature isRemodeledRecent to check whether the house was remodeled recently as it will help in figuring out if remodeling he house have any affect on the prices.\
-2. Similarly we create a feature new_house_status to check whether the house was recently.\
-3. Features to check average number of rooms in houses , garage and bathrooms above ground were made to make the features more relevant as such features will help greater role in determing the price of house.\
-4. Location of house is always an important factor in determing the price of house so we made features for nearby transits and services of the house\
-5. Feature related to Area of the house , porch area and quality of house were made as these are valuable features and will help in algorthim accuracy\
+1. We made a new feature isRemodeledRecent to check whether the house was remodeled recently as it will help in figuring out if remodeling he house have any affect on the prices.
+2. Similarly we create a feature new_house_status to check whether the house was recently.
+3. Features to check average number of rooms in houses , garage and bathrooms above ground were made to make the features more relevant as such features will help greater role in determing the price of house.
+4. Location of house is always an important factor in determing the price of house so we made features for nearby transits and services of the house
+5. Feature related to Area of the house , porch area and quality of house were made as these are valuable features and will help in algorthim accuracy
 6. We transform numerical columns to binary columns to speed up training of model and improving the accuracy.
 
 ***IMPUTING MISSING VALUES***
