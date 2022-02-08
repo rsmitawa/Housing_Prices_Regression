@@ -23,7 +23,7 @@ set.seed(1001)
 
 ```{r, include=FALSE, echo=FALSE}
 #Loading the files into data frames
-setwd("/home/ramesh/Documents/Data_Science/Freelancer/Shelly_housing_price_kaggle/")
+setwd("/home/ramesh/Documents/Data_Science/housing_price_kaggle/")
 
 ```
 
